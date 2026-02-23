@@ -72,7 +72,7 @@ dependencies {
     implementation(libs.androidx.compose.material.icons)
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
-
+    implementation(libs.androidx.hilt.navigation.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
